@@ -1,0 +1,5 @@
+
+
+makeblastdb -in Mani_v1.7_221214.proteins.fa -dbtype prot
+
+blastp -query Cinc_v1.9_221213.proteins.fa -db Mani_v1.7_221214.proteins.fa -outfmt 6
