@@ -2,11 +2,10 @@
 
 
 #set working directory
-setwd("/Users/cecihodson/Desktop/temp_files_testing")
+setwd("/Users/cecihodson/Desktop/Genome_Data/Petrolisthes_genomes/Genome_Annotation_Files")
 
 
-#install necessary packages and add to library
-#I don't actually think all of these are necessary
+#packages
 install.packages("readr")
 install.packages("tidyverse")
 install.packages("dplyr")
