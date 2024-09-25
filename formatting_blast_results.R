@@ -26,4 +26,21 @@ colnames(blast_results) <- c("query sequence ID", "target sequence ID", "percent
 
 View(blast_results)
 
+write.csv(blast_results, "blastresults_formatted.csv", row.names = FALSE)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
